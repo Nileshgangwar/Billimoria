@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from rn53themes.net/themes/demo/the-royal-hotel/main.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Oct 2021 12:33:18 GMT -->
+<head>
+	<title>Billimoria Farm - Hotel Booking and Room Booking </title>
+	<!-- META TAGS -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- FAV ICON(BROWSER TAB ICON) -->
+	<link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+	<!-- GOOGLE FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins%7CQuicksand:500,700" rel="stylesheet">
+	<!-- FONTAWESOME ICONS -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- ALL CSS FILES -->
+	<link href="css/materialize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<!-- RESPONSIVE.CSS ONLY FOR MOBILE AND TABLET VIEWS -->
+	<link href="css/responsive.css" rel="stylesheet">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body data-ng-app="">
+	
+	<section class="main">
+		
+		<div class="hom-body-section">
+			<div class="log">
+				<a href="main.html"><img src="images/logo.png" alt="" />
+				</a>
+			</div>
+			<div class="container">
+				<div class="row">
+					
+					<div class="home-bod">
+						<div class="home-bod-1">							
+							<h4>Welcome to' </h4>
+							<h2>Billimoria Farm </h2>
+							<p>On Mumbai pune main road, Chowk-Karjat road, Near N D Studio, 
+								<br> opposite the Village Restaurant
+							</p>
+						</div>
+						<div class="home-bod-2">
+							<ul>
+								<li>
+									<a href="#" class="waves-effect waves-light btn-large wed-pop-ser-btn"><img src="images/icon/h1.png" alt=""> Hotels</a>
+								</li>
+								<li>
+									<a href="#" class="waves-effect waves-light btn-large wed-pop-ser-btn"><img src="images/icon/h7.png" alt=""> Booking</a>
+								</li>
+								<li>
+									<a href="#" class="waves-effect waves-light btn-large wed-pop-ser-btn"><img src="images/icon/h2.png" alt=""> Menu</a>
+								</li>
+								<li>
+									<a href="#" class="waves-effect waves-light btn-large wed-pop-ser-btn"><img src="images/icon/h5.png" alt=""> About Us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--TOP SECTION-->
+	</section>
+	
+	<!--END HEADER SECTION-->
+	<!-- Gallary-->
+
+			<!--TOP SECTION-->
+			<div class="page-head">
+				<h2>Photo Gallery</h2>
+				<div class="head-title">
+					<div class="hl-1"></div>
+					<div class="hl-2"></div>
+					<div class="hl-3"></div>
+				</div>
+				<p>Garden pictures, Pool pictures, Room pictures </p>
+			</div>
+			<div class="inn-body-section">
+				<div class="container">
+					<div class="row inn-page-com">
+						
+						<!--SERVICES SECTION-->
+						<div class="col-md-12">
+							<div class="inn-services head-typo typo-com">
+								<ul id="filters" class="clearfix">
+									<li><span class="filter active" data-filter=".app, .card, .icon, .logo">All</span>
+									</li>
+									<li><span class="filter" data-filter=".app">Hotels Photos</span>
+									</li>
+									<li><span class="filter" data-filter=".card">Pool</span>
+									</li>
+									<li><span class="filter" data-filter=".icon">Rooms</span>
+									</li>
+									<li><span class="filter" data-filter=".logo">Garden</span>
+									</li>
+									
+									
+								</ul>
+								<div id="portfoliolist">
+									<div class="portfolio logo" data-cat="logo">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/logo/n.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">Garden</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio logo" data-cat="logo">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/logo/a.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">Garden</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio app" data-cat="app">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/app/n.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">APP</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio logo" data-cat="logo">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/logo/k.jpg" alt="" />
+											<div class="label">
+												<div class="label-text">Garden <a class="text-title">Photo Caption</a> <span class="text-category"></span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio logo" data-cat="logo">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/logo/l.jpg" alt="" />
+											<div class="label">
+												<div class="label-text">Garden <a class="text-title">Photo Caption</a> <span class="text-category"></span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="portfolio logo" data-cat="logo">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/logo/q.jpg" alt="" />
+											<div class="label">
+												<div class="label-text">Garden <a class="text-title">Photo Caption</a> <span class="text-category"></span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio logo" data-cat="logo">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/logo/r.jpg" alt="" />
+											<div class="label">
+												<div class="label-text">Garden <a class="text-title">Photo Caption</a> <span class="text-category"></span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio logo" data-cat="logo">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/logo/t.jpg" alt="" />
+											<div class="label">
+												<div class="label-text">Garden <a class="text-title">Photo Caption</a> <span class="text-category"></span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio app" data-cat="app">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/app/p.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">APP</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>								
+									<div class="portfolio app" data-cat="app">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/app/r.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">APP</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>								
+									<div class="portfolio app" data-cat="app">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/app/t.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">APP</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>								
+	
+									
+									<div class="portfolio card" data-cat="card">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/card/k.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">Business card</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="portfolio card" data-cat="card">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/card/p.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">Business card</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="portfolio app" data-cat="app">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/app/m.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">APP</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio card" data-cat="card">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/card/w.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">Business card</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									
+									
+									<div class="portfolio icon" data-cat="icon">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/icon/room1.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">Icon</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="portfolio icon" data-cat="icon">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/icon/room2.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">Icon</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="portfolio icon" data-cat="icon">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/icon/room3.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Photo Caption</a> <span class="text-category">Icon</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio icon" data-cat="icon">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/icon/room4.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">3D Map</a> <span class="text-category">Icon</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio icon" data-cat="icon">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/icon/room5.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">3D Map</a> <span class="text-category">Icon</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio icon" data-cat="icon">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/icon/room6.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">3D Map</a> <span class="text-category">Icon</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio card" data-cat="card">
+										<div class="portfolio-wrapper"> <img src="img/portfolios/card/k.jpg" alt="" />
+											<div class="label">
+												<div class="label-text"> <a class="text-title">Native Designers</a> <span class="text-category">Pool</span> </div>
+												<div class="label-bg"></div>
+											</div>
+										</div>
+									</div>
+									
+									
+								</div>
+							</div>
+						</div>
+						<!--END SERVICES SECTION-->
+					</div>
+				</div>
+			</div>
+		</section>
+
+	<!-- End Gallary -->
+	<!-- Frame -->
+	<p align="center"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWWL_jPMrdMRO4dDOAhuycjle9lJ5y0F0Ku7Fk4sPalmMjEA/viewform?embedded=true" width="640" height="3000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+	<!-- End Frame -->
+	<section>
+		<div class="inn-body-section pad-bot-55">
+			<div class="container">
+				<div class="row">
+					<div class="page-head">
+						<h2>Room Types</h2>
+						<div class="head-title">
+							<div class="hl-1"></div>
+							<div class="hl-2"></div>
+							<div class="hl-3"></div>
+						</div>
+						<p>4 Bedrooms pet friendly Vill with a Swimming pool, lawans, pool table and wifi</p>
+					</div>
+					<!--ROOM SECTION-->
+					<div class="room">
+						<div class="ribbon ribbon-top-left"><span>Featured</span>
+						</div>
+						<!--ROOM IMAGE-->
+						<div class="r1 r-com"><a href="index.html"> <img src="images/room/room1.jpg" alt="" /></a>
+						</div>
+						<!--ROOM RATING-->
+						<div class="r2 r-com">
+							<h4>Master Suite</h4>
+							<div class="r2-ratt"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>  <img src="images/h-trip.png" alt="" /> <span>Excellent  4.5 / 5</span> </div>
+							<ul>
+								<li>Max Adult : 3</li>
+								<li>Max Child : 1</li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+						<!--ROOM AMINITIES-->
+						<div class="r3 r-com">
+							<ul>
+								<li>Ironing facilities</li>
+								<li>Tea/Coffee maker</li>
+								<li>Air conditioning</li>
+								<li>Flat-screen TV</li>
+								<li>Wake-up service</li>
+							</ul>
+						</div>
+						<!--ROOM PRICE-->
+						<div class="r4 r-com">
+							<p>Weekdays price for 1 night</p>
+							<p><span class="room-price-1">20k</span> <span class="room-price"></span>
+							</p>
+							<p>Weekends price for 1 night</p>
+							<p><span class="room-price-1">25k</span> <span class="room-price"></span>
+							</p>
+							<p>Non Refundable</p>
+						</div>
+						<!--ROOM BOOKING BUTTON-->
+						<div class="r5 r-com">
+							<div class="r2-available">Available</div>
+							<p>Price for 1 night</p> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWWL_jPMrdMRO4dDOAhuycjle9lJ5y0F0Ku7Fk4sPalmMjEA/viewform?embedded=true" class="inn-room-book">Book</a> </div>
+					</div>
+					<!--END ROOM SECTION-->
+					<!--ROOM SECTION-->
+					<div class="room">
+						<div class="ribbon ribbon-top-left"><span>Featured</span>
+						</div>
+						<!--ROOM IMAGE-->
+						<div class="r1 r-com"> <a href="index1.html"> <img src="images/room/room2.jpg" alt="" /></a>
+						</div>
+						<!--ROOM RATING-->
+						<div class="r2 r-com">
+							<h4>Mini Suite</h4>
+							<div class="r2-ratt"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <img src="images/h-trip.png" alt="" /> <span>Excellent  4.2 / 5</span> </div>
+							<ul>
+								<li>Max Adult : 2</li>
+								<li>Max Child : 2</li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+						<!--ROOM AMINITIES-->
+						<div class="r3 r-com">
+							<ul>
+								<li>Ironing facilities</li>
+								<li>Tea/Coffee maker</li>
+								<li>Air conditioning</li>
+								<li>Flat-screen TV</li>
+								<li>Wake-up service</li>
+							</ul>
+						</div>
+						<!--ROOM PRICE-->
+						<div class="r4 r-com">
+							<p>Weekdays price for 1 night</p>
+							<p><span class="room-price-1">20k</span> <span class="room-price"></span>
+							</p>
+							<p>Weekends price for 1 night</p>
+							<p><span class="room-price-1">25k</span> <span class="room-price"></span>
+							</p>
+							<p>Non Refundable</p>
+						</div>
+						<!--ROOM BOOKING BUTTON-->
+						<div class="r5 r-com">
+							<div class="r2-available">Available</div>
+							<p>Price for 1 night</p> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWWL_jPMrdMRO4dDOAhuycjle9lJ5y0F0Ku7Fk4sPalmMjEA/viewform?embedded=true" class="inn-room-book">Book</a> </div>
+					</div>
+					<!--END ROOM SECTION-->
+					<!--ROOM SECTION-->
+					<div class="room">
+						<!--<div class="ribbon ribbon-top-left"><span>Featured</span></div>
+						-->
+						<!--ROOM IMAGE-->
+						<div class="r1 r-com"> <a href="index2.html"> <img src="images/room/room3.jpg" alt="" /></a>
+						</div>
+						<!--ROOM RATING-->
+						<div class="r2 r-com">
+							<h4>Ultra Deluxe</h4>
+							<div class="r2-ratt"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <img src="images/h-trip.png" alt="" /> <span>Excellent  3.9 / 5</span> </div>
+							<ul>
+								<li>Max Adult : 4</li>
+								<li>Max Child : 2</li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+						<!--ROOM AMINITIES-->
+						<div class="r3 r-com">
+							<ul>
+								<li>Ironing facilities</li>
+								<li>Tea/Coffee maker</li>
+								<li>Air conditioning</li>
+								<li>Flat-screen TV</li>
+								<li>Wake-up service</li>
+							</ul>
+						</div>
+						<!--ROOM PRICE-->
+						<div class="r4 r-com">
+							<p>Weekdays price for 1 night</p>
+							<p><span class="room-price-1">20k</span> <span class="room-price"></span>
+							</p>
+							<p>Weekends price for 1 night</p>
+							<p><span class="room-price-1">25k</span> <span class="room-price"></span>
+							</p>
+							<p>Non Refundable</p>
+						</div>
+						<!--ROOM BOOKING BUTTON-->
+						<div class="r5 r-com">
+							<div class="r2-available">Available</div>
+							<p>Price for 1 night</p> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWWL_jPMrdMRO4dDOAhuycjle9lJ5y0F0Ku7Fk4sPalmMjEA/viewform?embedded=true" class="inn-room-book">Book</a> </div>
+					</div>
+					<!--END ROOM SECTION-->
+					<!--ROOM SECTION-->
+					
+					<!--END ROOM SECTION-->
+					<!--ROOM SECTION-->
+					<div class="room">
+						<div class="ribbon ribbon-top-left"><span>Special</span>
+						</div>
+						<!--ROOM IMAGE-->
+						<div class="r1 r-com"> <a href="index3.html"> <img src="images/room/room5.jpg" alt="" /></a>
+						</div>
+						<!--ROOM RATING-->
+						<div class="r2 r-com">
+							<h4>Premium Room</h4>
+							<div class="r2-ratt"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <img src="images/h-trip.png" alt="" /> <span>Excellent  4.5 / 5</span> </div>
+							<ul>
+								<li>Max Adult : 2</li>
+								<li>Max Child : 1</li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+						<!--ROOM AMINITIES-->
+						<div class="r3 r-com">
+							<ul>
+								<li>Ironing facilities</li>
+								<li>Tea/Coffee maker</li>
+								<li>Air conditioning</li>
+								<li>Flat-screen TV</li>
+								<li>Wake-up service</li>
+							</ul>
+						</div>
+						<!--ROOM PRICE-->
+						<div class="r4 r-com">
+							<p>Weekdays price for 1 night</p>
+							<p><span class="room-price-1">20k</span> <span class="room-price"></span>
+							</p>
+							<p>Weekends price for 1 night</p>
+							<p><span class="room-price-1">25k</span> <span class="room-price"></span>
+							</p>
+							<p>Non Refundable</p>
+						</div>
+						<!--ROOM BOOKING BUTTON-->
+						<div class="r5 r-com">
+							<div class="r2-available">Available</div>
+							<p>Price for 1 night</p> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWWL_jPMrdMRO4dDOAhuycjle9lJ5y0F0Ku7Fk4sPalmMjEA/viewform?embedded=true" class="inn-room-book">Book</a> </div>
+					</div>
+					<!--END ROOM SECTION-->
+					<!--ROOM SECTION-->
+					
+					<!--END ROOM SECTION-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<div class="page-head">
+		<h2>Rules </h2>
+		<div class="head-title">
+			<div class="hl-1"></div>
+			<div class="hl-2"></div>
+			<div class="hl-3"></div>
+		</div>
+		<p>Be expected every guest Follow the rules, otherwise Any Damage Property/ Electronics/ art will be paid for as actual during checkout </p>
+	</div>
+	<section>
+		<div class="hom-com">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="row">
+							<div class="hp-section">
+								<div class="hp-sub-tit">
+									<h4><span>Rules</span></h4>
+									<p>Be expected every guest Follow the rules, otherwise Any Damage Property/ Electronics/ art will be paid for as actual during checkout</p>
+								</div>
+								<div class="hp-amini">
+									<p>* Pool timing will be from 7 am to 8 pm only, There is no lifeguard on duty at the swimming pool 
+										Entering the swimming pool will be at own risk, No diving in the swimming pool, Children will only enter the swimming pool under the supervision of adults,Please do not smoke or eat in the bedrooms </p>
+									<p>*  No consuming/ carrying drugs , carrying firearms/ weapons or conduct any unlawful activities .in such case we reserve the right to request any guest to vacate the property forthwith, Without previous notice and without assigning any reason whatsoever, the guest shall be bound to vacate when requested to do so and will be reported to the local authorities </p>
+									<p>*  We believe food, water and electricity is very precious please do not waste, The primary guest has to be at least 18 years of age, Guests cannot invite other guests and day visitors during their stay, We do not encourage parties and late night revelry , deadline for any loud music is 10pm, Check in 1pm and check out 11am  </p>
+								</div>
+							</div>
+							<div class="hp-section">
+								<div class="hp-sub-tit">
+									<h4><span>Amenities</span></h4>
+									<p>
+										*There is one flat screen TV in Master Bedroom.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										* No iron On Farm.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+										* There is no Hair Dryer in Bathroom or Iron Facility.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										* There is No One Tea Coffee Maker in Kitchen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; only Kettle. <br />
+										* They are all Bedrooms and not Suits or Delux Rooms <br /> As Mentioned <br>
+										2 delux rooms<br>
+										1 regular room <br>
+										1 loft room<br>
+
+										* You mentioned Hotel and its not a Hotel. &nbsp; "Its Farm Home away from Home."<br>
+
+										Amenities <br />
+
+										<img src="https://img-premium.flaticon.com/png/128/2977/premium/2977053.png?token=exp=1633619877~hmac=091bb2f972462c4d004f5955fc582513" data-src="https://img-premium.flaticon.com/png/128/2977/premium/2977053.png?token=exp=1633619877~hmac=091bb2f972462c4d004f5955fc582513" alt="Swimming pool free icon" title="Swimming pool free icon" width="34" height="34" class="lzy lazyload--done" srcset="https://img-premium.flaticon.com/png/128/2977/premium/2977053.png?token=exp=1633619877~hmac=091bb2f972462c4d004f5955fc582513 4x">&nbsp; Swimming pool  &nbsp;&nbsp;
+										<img src="https://cdn-icons-png.flaticon.com/128/1232/1232174.png" data-src="https://cdn-icons-png.flaticon.com/128/1232/1232174.png" alt="Pool table free icon" title="Pool table free icon" width="34" height="34" class="lzy lazyload--done" srcset="https://cdn-icons-png.flaticon.com/128/1232/1232174.png 4x"> Pool Table &nbsp;&nbsp;
+										Poolside Sit Out
+										Poolside dinning
+										WiFi
+										Lawns
+										Kettle
+										Microwave
+										Refrigerator
+									</p>
+								</div>
+								<div class="hp-amini">
+									<ul>
+										<li><img src="images/icon/a1.png" alt=""> Elevator in building</li>
+										<li><img src="images/icon/a2.png" alt=""> Friendly workspace</li>
+										<li><img src="images/icon/a3.png" alt=""> Instant Book</li>
+										<li><img src="images/icon/a4.png" alt=""> Wireless Internet</li>
+										<li><img src="images/icon/a5.png" alt=""> Free parking on premises</li>
+										<li><img src="images/icon/a6.png" alt=""> Free parking on street</li>
+										<li><img src="images/icon/a7.png" alt=""> Elevator in building</li>
+										<li><img src="images/icon/a8.png" alt=""> Friendly workspace</li>
+										<li><img src="images/icon/a9.png" alt=""> Instant Book</li>
+										<li><img src="images/icon/a10.png" alt=""> Wireless Internet</li>
+										<li><img src="images/icon/a11.png" alt=""> Free parking on premises</li>
+										<li><img src="images/icon/a12.png" alt=""> Free parking on street</li>
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-4">
+						<!--=========================================-->
+						<div class="hp-call hp-right-com">
+							<div class="hp-call-in"> <img src="images/icon/dbc4.png" alt="">
+								<h3><span>Check Availability. Call us!</span> +91-9820401984</h3> <small>We are available 24/7 Monday to Sunday</small> <a href="#">Call Now</a> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<section>
+		
+		<!--TOP SECTION-->
+		
+	<div class="page-head">
+		<h2>Google Map</h2>
+		<div class="head-title">
+			<div class="hl-1"></div>
+			<div class="hl-2"></div>
+			<div class="hl-3"></div>
+		</div>
+		<p>This is Google map of Fram, We can easily find to location </p>
+	</div>
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241573.98872258182!2d73.12895361640625!3d18.905103200000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e4b1c11ba703%3A0xdd254059c5e6c997!2sBillimoria%20Farms!5e0!3m2!1sen!2sin!4v1633405056529!5m2!1sen!2sin" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>
+	<section>
+        <div class="inn-body-section">
+			<div class="container">
+				<div class="row">
+					<div class="page-head">
+						<h2>About Us</h2>
+						<div class="head-title">
+							<div class="hl-1"></div>
+							<div class="hl-2"></div>
+							<div class="hl-3"></div>
+						</div>
+						<p>4 Bedrooms pet friendly Villa with a Swimming pool, lawans, pool table and wifi.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="about-left">
+							<h2>Welcome to <span>Billimoria Farm</span></h2>
+							<h4>4 Bedrooms pet friendly Villa with a Swimming pool, lawans, pool table and wifi.</h4>
+							<p>* Weekdays 20k/night <br> * Weekends 25k/night plus <br> * 15% booking handling charges <br> * Accommodation is for 10 to 12 people(Extra person is chargeable) <br>* Food is not included</p>
+							<p>Restaurant is right across our Farm and home cooked meals also available on request with additional charges.There are two options:- <br> 1.  Village Restaurant which is top Veg / Non Veg Restsurant of Karjat is just opposite to the farm. The Menu and Rate Card is available at the farm. You can order it at the farm can enjoy your food there. <br> 2. There is a person at the farm who stays 100 mtrs away can give you Veg / Non Veg Food at the farm. He makes the food as per your requirement "Home Food" and brings it to serve you. There is Microwave at the farm too. </p>
+							<p>Payment mode:- Cash 60% in advance with date confirmation, 40% balance on site while entering premises with registration. </p> <p>Also there is a couple to attend you at the farm for housekeeping and look after guest max till 11.00.pm <br> Book early to avoid disappointment <br> Thanks <br> 
+							Prasad Naik.</p> <a href="#" class="link-btn">Call to us: +91-9820401984</a> <br> <a href="#" class="link-btn">E-mail: pknaik_@hotmail.com</a></div>
+					</div>
+					<div class="col-md-6">
+						<div class="about-right"> <img src="images/about.jpg" alt=""> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<footer class="site-footer clearfix">
+			<div class="sidebar-container">
+				<div class="sidebar-inner">
+					<div class="widget-area clearfix">
+						<div class="widget widget_azh_widget">
+							<div>
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-12 col-md-3 foot-logo"> <img src="images/logo1.png" alt="logo">
+											<p class="hasimg">Billimoria Farm is located on the green foot of karjat, villa is available  for bookings for family's and corporates.</p>
+										</div>
+										<div class="col-sm-12 col-md-3">
+											<h4>Address</h4>
+											<p>On Mumbai Pune main road, Chowk-Karjat road Near N D Studio, opposite the Village         Restaurant</p>
+											<p> <span class="foot-phone">Phone: </span> <span class="foot-phone">+91-9820401984</span> </p>
+										</div>
+										<div class="col-sm-12 col-md-5 foot-social">
+											<h4>Follow with us</h4>
+											<ul>
+												<li><a href="#!"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+												<li><a href="#!"><i class="fa fa-google-plus" aria-hidden="true"></i></a> </li>
+												<li><a href="#!"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+												<li><a href="https://www.instagram.com/billimoriafarms/?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+												<li><a href="#!"><i class="fa fa-youtube" aria-hidden="true"></i></a> </li>
+												<li><a href="https://wa.me/919820401984"><i class="fa fa-whatsapp" aria-hidden="true"></i></a> </li>
+											</ul>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<!-- .widget-area -->
+				</div>
+				<!-- .sidebar-inner -->
+			</div>
+			<!-- #quaternary -->
+		</footer>
+	</section>
+	<section>
+		<!-- LOGIN SECTION -->
+		<div id="modal1" class="modal fade" role="dialog">
+			<div class="log-in-pop">
+				<div class="log-in-pop-left">
+					<h1>Hello... <span>{{ name }}</span></h1>
+					<p>Don't have an account? Create your account. It's take less then a minutes</p>
+					<h4>Login with social media</h4>
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+						</li>
+						<li><a href="#"><i class="fa fa-google"></i> Google+</a>
+						</li>
+						<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+						</li>
+					</ul>
+				</div>
+				<div class="log-in-pop-right">
+					<a href="#" class="pop-close" data-dismiss="modal"><img src="images/cancel.png" alt="" />
+					</a>
+					<h4>Login</h4>
+					<p>Don't have an account? Create your account. It's take less then a minutes</p>
+					<form class="s12">
+						<div>
+							<div class="input-field s12">
+								<input type="text" data-ng-model="name" class="validate">
+								<label>User name</label>
+							</div>
+						</div>
+						<div>
+							<div class="input-field s12">
+								<input type="password" class="validate">
+								<label>Password</label>
+							</div>
+						</div>
+						<div>
+							<div class="s12 log-ch-bx">
+								<p>
+									<input type="checkbox" id="test5" />
+									<label for="test5">Remember me</label>
+								</p>
+							</div>
+						</div>
+						<div>
+							<div class="input-field s4">
+								<input type="submit" value="Login" class="waves-effect waves-light log-in-btn"> </div>
+						</div>
+						<div>
+							<div class="input-field s12"> <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal3">Forgot password</a> | <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal2">Create a new account</a> </div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- REGISTER SECTION -->
+		<div id="modal2" class="modal fade" role="dialog">
+			<div class="log-in-pop">
+				<div class="log-in-pop-left">
+					<h1>Hello... <span>{{ name1 }}</span></h1>
+					<p>Don't have an account? Create your account. It's take less then a minutes</p>
+					<h4>Login with social media</h4>
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+						</li>
+						<li><a href="#"><i class="fa fa-google"></i> Google+</a>
+						</li>
+						<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+						</li>
+					</ul>
+				</div>
+				<div class="log-in-pop-right">
+					<a href="#" class="pop-close" data-dismiss="modal"><img src="images/cancel.png" alt="" />
+					</a>
+					<h4>Create an Account</h4>
+					<p>Don't have an account? Create your account. It's take less then a minutes</p>
+					<form class="s12">
+						<div>
+							<div class="input-field s12">
+								<input type="text" data-ng-model="name1" class="validate">
+								<label>User name</label>
+							</div>
+						</div>
+						<div>
+							<div class="input-field s12">
+								<input type="email" class="validate">
+								<label>Email id</label>
+							</div>
+						</div>
+						<div>
+							<div class="input-field s12">
+								<input type="password" class="validate">
+								<label>Password</label>
+							</div>
+						</div>
+						<div>
+							<div class="input-field s12">
+								<input type="password" class="validate">
+								<label>Confirm password</label>
+							</div>
+						</div>
+						<div>
+							<div class="input-field s4">
+								<input type="submit" value="Register" class="waves-effect waves-light log-in-btn"> </div>
+						</div>
+						<div>
+							<div class="input-field s12"> <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal1">Are you a already member ? Login</a> </div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- FORGOT SECTION -->
+		<div id="modal3" class="modal fade" role="dialog">
+			<div class="log-in-pop">
+				<div class="log-in-pop-left">
+					<h1>Hello... <span>{{ name3 }}</span></h1>
+					<p>Don't have an account? Create your account. It's take less then a minutes</p>
+					<h4>Login with social media</h4>
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+						</li>
+						<li><a href="#"><i class="fa fa-google"></i> Google+</a>
+						</li>
+						<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+						</li>
+					</ul>
+				</div>
+				<div class="log-in-pop-right">
+					<a href="#" class="pop-close" data-dismiss="modal"><img src="images/cancel.png" alt="" />
+					</a>
+					<h4>Forgot password</h4>
+					<p>Don't have an account? Create your account. It's take less then a minutes</p>
+					<form class="s12">
+						<div>
+							<div class="input-field s12">
+								<input type="text" data-ng-model="name3" class="validate">
+								<label>User name or email id</label>
+							</div>
+						</div>
+						<div>
+							<div class="input-field s4">
+								<input type="submit" value="Submit" class="waves-effect waves-light log-in-btn"> </div>
+						</div>
+						<div>
+							<div class="input-field s12"> <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal1">Are you a already member ? Login</a> | <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal2">Create a new account</a> </div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--FOOTER FIXED SECTION-->
+	<div class="hom-footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="foot-com foot-1">
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+				</div>
+				<div class="foot-com foot-2">
+					<h5>Phone: +91-9820401984</h5> </div>
+				<div class="foot-com foot-3">
+					<!--<a class="waves-effect waves-light" href="#">online room booking</a>--><a class="waves-effect waves-light" href="https://docs.google.com/forms/d/e/1FAIpQLSeWWL_jPMrdMRO4dDOAhuycjle9lJ5y0F0Ku7Fk4sPalmMjEA/viewform?embedded=true">room booknow</a> </div>
+				<div class="foot-com foot-4">
+					<a href="#"><img src="images/card.png" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--ALL SCRIPT FILES-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<script src="js/materialize.min.js" type="text/javascript"></script>
+	<script src="js/jquery.mixitup.min.js" type="text/javascript"></script>
+	<script src="js/custom.js"></script>
+</body>
+
+
+<!-- Mirrored from rn53themes.net/themes/demo/the-royal-hotel/main.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Oct 2021 12:34:06 GMT -->
+</html>
